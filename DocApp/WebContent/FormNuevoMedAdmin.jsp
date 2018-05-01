@@ -1,11 +1,33 @@
+
+
 <form action = "FormNuevoMedAdminServlet">
 
+<div>
+<label>Nombre:</label>
 <input type = "text" name= "name" placeholder = "Nombre"/>
-<input type = "text" name= "especialidad" placeholder = "Especialidad"/>
-<input type = "text" name= "email" placeholder = "Email"/>
-<input type = "number" name= "dni" placeholder = "DNI"/>
-<input type = "password" name= "password" placeholder = "Contraseña"/>
+</div>
 
-<input type="submit"> Crear nuevo médico </input>
+<div>
+<label>Especialidad:</label>
+<input type = "text" name= "especialidad" placeholder = "Especialidad"/>
+</div>
+
+<div>
+<label>Email:</label>
+<input type = "text" name= "email" placeholder = "Correo electrÃ³nico"/>
+</div>
+
+<div>
+<label>ContraseÃ±a:</label>
+<input type = "password" name= "password" placeholder = "ContraseÃ±a"/>
+</div>
+
+<div>
+<label>DNI:</label>
+<input type = "number" name= "dni" placeholder = "DNI"/>
+</div>
+
+</br>
+<button type="submit">Crear</button>
 
 </form>
