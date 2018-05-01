@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <style type="text/css">
-	<%@ include file="WEB-INF/style.css" %>
+	<%@ include file="style.css" %>
 </style>
 
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
