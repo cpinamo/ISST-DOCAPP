@@ -20,13 +20,16 @@
 <img src="https://www.kmchospital.com/wp-content/uploads/bfi_thumb/close200-33nlczheutuszxjugll4ow.jpeg">
 
 <form action = "LoginServlet">
-<p>Email:
-<input type = "text" name = "email" placeholder = "Introduzca su correo"/></p>
-<p>Contraseña:
-<input type = "password" name = "password" placeholder = "Introduzca su contraseña"/></p></br>
+
+<div></br>
+<label>Email:</label>
+<input type = "text" name = "email" placeholder = "Introduzca su correo"/>
+<label>Contraseña:</label>
+<input type = "password" name = "password" placeholder = "Introduzca su contraseña"/>
 <button type = "submit">Acceder</button>
+</div>
+
 </form></br>
 <a href="FormRegistroPacienteServlet">Registrar nuevo paciente</a>
-
 </body>
 </html>
