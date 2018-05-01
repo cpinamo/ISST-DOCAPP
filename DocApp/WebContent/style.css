@@ -13,11 +13,40 @@ p {
   color: #66CCCC;
 }
 
+label {
+  font-size: 20px;
+  width: 150px;
+  margin-left: 18px;
+  color: #66CCCC;
+}
+
+div {
+	padding-top: 8px;
+}
+
 h1 {
   font-size: 32px;
   font-weight: 300;
   color: #66CCCC;
   text-align: center;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 300;
+  color: #66CCCC;
+  text-align: left;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #388E8E;
+  text-align: left;
   padding-top: 10px;
   margin-bottom: 10px;
 }
@@ -62,4 +91,32 @@ img {
 	margin-left: 10%;
 	margin-right: 10%;
 	opacity: 0.7;
+}
+
+.cols {
+	float: left;
+}
+
+
+table {
+  border-collapse: collapse;
+}
+ th {
+  background: #5F9F9F;
+}
+
+th, td {
+  border: 1px solid #;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background: #d1EEEE;
+}
+
+tr:nth-child(odd) {
+  background: #96CDCD;
+}
+tr:hover {
+  background: #96CDCD;
 }
