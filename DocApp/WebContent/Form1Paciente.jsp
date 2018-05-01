@@ -1,5 +1,8 @@
 <form action = "FormRegistro1PacienteServlet">
 
+  <img src="http://www.crmchealth.org/sites/default/files/images/registration/Registration.png?1314710319" style="width: 50%; float: right;">
+
+  
 <p>Nombre:
 <input type = "text" name= "name" placeholder = "Nombre"/></p>
 <p>Apellidos:
