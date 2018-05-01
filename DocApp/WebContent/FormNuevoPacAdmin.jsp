@@ -1,15 +1,49 @@
 <form action = "FormNuevoPacAdminServlet">
 
+<div class="cols">
+<div>
+<label>Nombre:</label>
 <input type = "text" name= "name" placeholder = "Nombre"/>
+</div>
+
+<div>
+<label>Apellidos:</label>
 <input type = "text" name= "apellido" placeholder = "Apellidos"/>
-<input type = "password" name= "password" placeholder = "Contrase�a"/>
-<input type = "text" name= "email" placeholder = "Email"/>
+</div>
+
+<div>
+<label>Contraseña:</label>
+<input type = "password" name= "password" placeholder = "Contraseña"/>
+</div>
+
+<div class="cols">
+<label>Email:</label>
+<input type = "text" name= "email" placeholder = "Correo electrónico"/>
+</div>
+</div>
+
+<div>
+<div>
+<label>Edad:</label>
 <input type = "number" name= "edad" placeholder = "Edad"/>
-<input type = "number" name= "movil" placeholder = "N�mero de tel�fono"/>
+</div>
+
+<div>
+<label>Número de teléfono:</label>
+<input type = "number" name= "movil" placeholder = "Número de teléfono"/>
+</div>
+
+<div>
+<label>DNI:</label>
 <input type = "number" name= "dni" placeholder = "DNI"/>
-<input type = "text" name= "domicilio" placeholder = "Direcci�n Completa"/>
+</div>
 
-
-<input type="submit"> Crear nuevo paciente </input>
+<div>
+<label>Domicilio:</label>
+<input type = "text" name= "domicilio" placeholder = "Dirección Completa"/>
+</div>
+</div>
+</br>
+<button type="submit">Crear</button>
 
 </form>
